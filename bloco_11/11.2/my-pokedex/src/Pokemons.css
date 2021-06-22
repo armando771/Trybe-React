@@ -1,0 +1,35 @@
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2% 10%;
+}
+
+.pokemon{
+   border: solid 1px blue;
+   margin: 10px;
+   border-radius: 15%;
+   padding: 1px;
+    
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+   
+}
+
+img{
+    width: 200px;
+    
+}
+
+.pokemon-container{
+    display: flex;
+    padding: 2px;
+    margin: 8px;
+    flex-direction: row;
+}
